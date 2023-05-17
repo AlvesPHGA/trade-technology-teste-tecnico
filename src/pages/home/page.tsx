@@ -1,7 +1,9 @@
+import Intro_home from './intro_home/intro';
+
 const Home = () => {
    return (
       <section>
-         <div></div>
+         <Intro_home />
          <div></div>
       </section>
    );
