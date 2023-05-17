@@ -1,11 +1,12 @@
+import Login from './Login/page';
 import Intro_home from './intro_home/intro';
 
 const Home = () => {
    return (
-      <section>
+      <main className="grid grid-cols-2 h-[calc(90vh-80px)]">
          <Intro_home />
-         <div></div>
-      </section>
+         <Login />
+      </main>
    );
 };
 
