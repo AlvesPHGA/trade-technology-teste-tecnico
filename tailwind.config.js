@@ -10,7 +10,11 @@ export default {
             marigold: '#E79C25',
          },
       },
-      extend: {},
+      extend: {
+         gridTemplateColumns: {
+            loginForm: '75% 25%',
+         },
+      },
    },
    plugins: [],
 };

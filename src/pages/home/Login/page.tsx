@@ -1,24 +1,32 @@
+import Button from '../../../components/Button/Button';
+
 const Login = () => {
    return (
-      <section>
-         <form>
+      <section className="flex items-center justify-center">
+         <form className="border w-2/3 py-10 px-10">
             <div>
-               <label>
-                  <legend>Login</legend>
+               <span className="text-xl">Login</span>
+               <div className="border border-trade_tech-blue_ncs grid grid-cols-loginForm text-xl rounded-md mt-2">
                   <input
+                     className="py-1 pl-1 border-r border-r-trade_tech-blue_ncs rounded-s-md"
                      type="text"
                      name=""
                      id=""
                      placeholder="Entre com a key"
                   />
-               </label>
-               <select name="" id="">
-                  <option value="">Selecione o país</option>
-                  <option value="brasil">Brasil</option>
-                  <option value="espanha">Espanha</option>
-                  <option value="alemanha">Alemanha</option>
-               </select>
+                  <select
+                     className="py-1 pl-1 text-trade_tech-cool_black border-none rounded-e-md"
+                     name=""
+                     id=""
+                  >
+                     <option value="">Selecione o país</option>
+                     <option value="brasil">Brasil</option>
+                     <option value="espanha">Espanha</option>
+                     <option value="alemanha">Alemanha</option>
+                  </select>
+               </div>
             </div>
+            <Button legend="Entrar" />
          </form>
       </section>
    );
