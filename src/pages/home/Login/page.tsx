@@ -19,7 +19,7 @@ const Login = () => {
                      name=""
                      id=""
                   >
-                     <option value="">Selecione o país</option>
+                     <option value="">País</option>
                      <option value="brasil">Brasil</option>
                      <option value="espanha">Espanha</option>
                      <option value="alemanha">Alemanha</option>
@@ -27,6 +27,14 @@ const Login = () => {
                </div>
             </div>
             <Button legend="Entrar" />
+            <a
+               className="block mt-2 text-trade_tech-blue_ncs hover:underline"
+               href="https://www.api-football.com/"
+               target="_blank"
+               rel="noopener noreferrer"
+            >
+               Ainda não possui uma conta?
+            </a>
          </form>
       </section>
    );
