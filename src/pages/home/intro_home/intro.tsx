@@ -1,6 +1,6 @@
 const Intro_home = () => {
    return (
-      <div className="text-center w-full border-r flex flex-col justify-center">
+      <div className="text-center w-full flex flex-col justify-center bg-trade_tech-blue_ncs/5">
          <h1 className="text-9xl font-sans text-trade_tech-cool_black">
             Meu time
          </h1>

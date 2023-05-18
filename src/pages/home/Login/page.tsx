@@ -3,7 +3,7 @@ import Button from '../../../components/Button/Button';
 const Login = () => {
    return (
       <section className="flex items-center justify-center">
-         <form className="border w-2/3 py-10 px-10">
+         <form className="w-2/3 py-10 px-10 rounded border border-trade_tech-cool_black/10">
             <div>
                <span className="text-xl">Login</span>
                <div className="border border-trade_tech-blue_ncs grid grid-cols-loginForm text-xl rounded-md mt-2">
